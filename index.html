@@ -8,12 +8,12 @@
     <title>Bienvenidos A Mi Pagina</title>
 </head>
 <body>
-
-    <header>
+<div id="agrupar">
+    <header id="cabecera">
         <h1> este es el titulo principal de mi pagina web </h1>
     </header>
 
-    <nav>
+    <nav id="menu">
         <ul>
             <li>Sobre Mi</li>
             <li>Contacto</li>
@@ -22,14 +22,14 @@
         </ul>
     </nav>
 
-    <section>
+    <section id="seccion">
         <article>
             <header>
                 <hgroup>
                     <h1>titulo</h1>
                     <h2>SubTitulo</h2>
                 </hgroup>
-                <p>publicacdo 2022-08-29</p>
+                <time datetime="2011-12-10" pubdate>publicado 10-12-2011</time>
             </header>
             este es el 1 Mensaje del articulo
             <figure>
@@ -42,7 +42,13 @@
         </article>
 
         <article>
-            <header> Titulo del segundo Mensaje</header>
+            <header> 
+                <hgroup>
+                    <h1>t1</h1>
+                    <h2>t2</h2>
+                </hgroup>
+                <time datetime="2011-12-10" pubdate>publicado 10-12-2011</time>
+            </header>
             este es el 2 Mensaje del articulo
             <footer>
                 <p>inf. footer 2</p>
@@ -50,12 +56,13 @@
         </article>
     </section>
 
-    <aside>
+    <aside id="columna">
         <blockquote>Mensaje numero 1</blockquote>
         <blockquote>Mensaje numero 2</blockquote>
     </aside>
 
-    <footer>Derechos reservados 2020-2022 </footer>
-    
+    <footer id="pie">Derechos reservados 2020-2022 </footer>
+
+</div>
 </body>
 </html>
