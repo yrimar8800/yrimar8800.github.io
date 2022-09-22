@@ -1,0 +1,14 @@
+body{
+    background: url(yo.jpg);
+    background-size: 1600px 800px;
+}
+nav{
+    margin: 5px 0px;
+    }
+
+#menu li {
+display: inline-block;
+list-style: none;
+padding: 20px;
+font: bold 14px verdana, sans-serif;
+}
